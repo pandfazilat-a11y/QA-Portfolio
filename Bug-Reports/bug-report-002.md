@@ -1,28 +1,29 @@
+# BUG-002: Кнопка «Добавить в корзину» не добавляет товар
 
-# Bug Report 002
+**Title:** Кнопка «Добавить в корзину» не добавляет выбранный товар
 
-## Title
-Кнопка "Добавить в корзину" не работает
+**Environment:**
 
-## Environment
-Website: Online store  
-Browser: Google Chrome
+* Website: Online store
+* Browser: Google Chrome
+* OS: Windows 11
 
-## Preconditions
-Пользователь находится на странице товара
+**Preconditions:**
 
-## Steps to reproduce
-1. Открыть страницу товара
-2. Нажать кнопку "Добавить в корзину"
+* Пользователь находится на странице товара.
+* Товар доступен для покупки.
 
-## Expected Result
-Товар добавляется в корзину
+**Steps to Reproduce:**
 
-## Actual Result
-Кнопка нажимается, но товар не добавляется
+1. Открыть страницу товара.
+2. Нажать кнопку «Добавить в корзину».
 
-## Severity
-Major
+**Expected Result:**
+Выбранный товар добавляется в корзину, а количество товаров в корзине увеличивается на 1.
 
-## Priority
-High
+**Actual Result:**
+После нажатия кнопки товар не добавляется в корзину.
+
+**Severity:** Major
+
+**Priority:** High
